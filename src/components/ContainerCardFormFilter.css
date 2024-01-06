@@ -1,0 +1,158 @@
+.section-bg3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke-100);
+  border: 4px solid var(--color-mediumseagreen-100);
+  box-sizing: border-box;
+  width: 90rem;
+  height: 27.81rem;
+}
+.long-burning4 {
+  font-weight: 500;
+}
+.feature49 {
+  position: absolute;
+  top: 0;
+  left: 1.5rem;
+  line-height: 1.8rem;
+  display: inline-block;
+  width: 32.25rem;
+  height: 0.98rem;
+}
+.checkmark-circle-outline-2-icon4 {
+  position: absolute;
+  top: 0.24rem;
+  left: 0;
+  width: 0.88rem;
+  height: 0.49rem;
+  overflow: hidden;
+  object-fit: cover;
+}
+.feature48 {
+  position: absolute;
+  top: 10.33rem;
+  left: 0;
+  width: 33.75rem;
+  height: 0.98rem;
+}
+.checkmark-circle-outline-1-icon12 {
+  position: absolute;
+  top: 0.28rem;
+  left: 0;
+  width: 0.88rem;
+  height: 0.49rem;
+  overflow: hidden;
+  object-fit: cover;
+}
+.feature18,
+.feature28,
+.feature38 {
+  position: absolute;
+  top: 9.01rem;
+  left: 0;
+  width: 33.75rem;
+  height: 0.98rem;
+}
+.feature18,
+.feature28 {
+  top: 7.68rem;
+}
+.feature18 {
+  top: 6.36rem;
+}
+.h2-title4,
+.subline2 {
+  position: absolute;
+  left: 0;
+  width: 21.88rem;
+}
+.subline2 {
+  top: 4.18rem;
+  line-height: 1.43rem;
+  color: var(--green);
+  display: inline-block;
+  height: 0.87rem;
+}
+.h2-title4 {
+  top: 0;
+  font-size: var(--font-size-21xl);
+  letter-spacing: -0.9px;
+  line-height: 2.91rem;
+  font-weight: 500;
+  color: var(--color-gray-400);
+  display: flex;
+  align-items: flex-end;
+  height: 3.65rem;
+}
+.text-left4 {
+  position: absolute;
+  top: 4.9rem;
+  left: 10.31rem;
+  width: 33.75rem;
+  height: 11.3rem;
+}
+.feature410 {
+  position: absolute;
+  top: 6.16rem;
+  left: 0;
+}
+.feature210,
+.feature310,
+.feature410 {
+  width: 33.75rem;
+  height: 0.98rem;
+}
+.feature310 {
+  position: absolute;
+  top: 4.83rem;
+  left: 0;
+}
+.feature210 {
+  top: 3.51rem;
+}
+.feature110,
+.feature210,
+.subline3 {
+  position: absolute;
+  left: 0;
+}
+.feature110 {
+  top: 2.19rem;
+  width: 33.75rem;
+  height: 0.98rem;
+}
+.subline3 {
+  top: 0;
+  line-height: 1.43rem;
+  color: var(--green);
+  display: inline-block;
+  width: 21.88rem;
+  height: 0.87rem;
+}
+.image-6-icon,
+.text-left5 {
+  position: absolute;
+  top: 9.07rem;
+  left: 10.31rem;
+  width: 33.75rem;
+  height: 7.13rem;
+}
+.image-6-icon {
+  top: 4.88rem;
+  left: 47.69rem;
+  width: 34.81rem;
+  height: 19.5rem;
+  object-fit: cover;
+}
+.section-descriere3 {
+  position: absolute;
+  top: 58.5rem;
+  left: -0.06rem;
+  width: 90rem;
+  height: 27.81rem;
+  text-align: left;
+  font-size: var(--label-label-1-semibold-size);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

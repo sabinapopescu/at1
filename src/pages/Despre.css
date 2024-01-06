@@ -1,0 +1,7 @@
+.despre {
+  position: relative;
+  background-color: var(--font-color-pure-white);
+  width: 100%;
+  height: 123.13rem;
+  overflow: hidden;
+}

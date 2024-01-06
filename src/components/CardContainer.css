@@ -1,0 +1,20 @@
+.image-5-icon {
+  position: absolute;
+  top: 5.81rem;
+  left: 53.63rem;
+  width: 29.69rem;
+  height: 39.44rem;
+  object-fit: cover;
+}
+.section-descriere {
+  position: absolute;
+  top: 7.38rem;
+  left: -0.06rem;
+  background-color: var(--color-whitesmoke-100);
+  width: 90rem;
+  height: 50rem;
+  text-align: left;
+  font-size: var(--label-label-1-semibold-size);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

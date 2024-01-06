@@ -1,0 +1,70 @@
+.product-card-icon {
+  position: absolute;
+  top: 9.38rem;
+  left: 0;
+  width: 15.94rem;
+  height: 14.38rem;
+  object-fit: cover;
+}
+.product-card-icon1,
+.product-card-icon2,
+.product-card-icon3 {
+  position: absolute;
+  top: 9.38rem;
+  left: 17.81rem;
+  width: 15.94rem;
+  height: 14.38rem;
+  object-fit: cover;
+}
+.product-card-icon2,
+.product-card-icon3 {
+  left: 35.63rem;
+}
+.product-card-icon3 {
+  left: 53.44rem;
+}
+.description3 {
+  margin: 0;
+  position: absolute;
+  top: 4.06rem;
+  left: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  width: 69.31rem;
+  height: 2.19rem;
+}
+.section-text,
+.title-h2 {
+  position: absolute;
+  top: 0;
+  width: 69.31rem;
+}
+.title-h2 {
+  margin: 0;
+  left: 0;
+  font-size: var(--font-size-21xl);
+  letter-spacing: -0.9px;
+  line-height: 3.6rem;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-darkslateblue);
+  display: inline-block;
+  height: 3.13rem;
+}
+.section-text {
+  left: 0.06rem;
+  height: 6.25rem;
+}
+.blog2 {
+  position: absolute;
+  top: 196rem;
+  left: 10.25rem;
+  width: 70rem;
+  height: 29.81rem;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--dark-1);
+  font-family: var(--font-inter);
+}

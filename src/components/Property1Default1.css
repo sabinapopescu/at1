@@ -1,0 +1,21 @@
+.button1 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.property-1default1 {
+  border-radius: var(--br-3xs);
+  background-color: var(--orange);
+  width: 137px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-smi) var(--padding-5xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--label-label-1-semibold-size);
+  color: var(--font-color-pure-white);
+  font-family: var(--label-label-1-semibold);
+}

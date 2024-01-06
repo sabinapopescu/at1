@@ -1,0 +1,111 @@
+.section-bg1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke-100);
+  width: 90rem;
+  height: 33.13rem;
+}
+.group-child,
+.grupa-pregatitoare {
+  position: absolute;
+  left: 0;
+  width: 10.31rem;
+}
+.grupa-pregatitoare {
+  top: 14.69rem;
+  display: inline-block;
+  height: 3.81rem;
+}
+.group-child {
+  top: 0;
+  border-radius: var(--br-29xl);
+  background-color: var(--green);
+  height: 12.69rem;
+}
+.grupa-pregatitoare-parent {
+  position: relative;
+  width: 10.31rem;
+  height: 18.5rem;
+}
+.grupa-mica {
+  left: 0;
+  width: 6.75rem;
+}
+.grupa-mare,
+.grupa-mica,
+.grupa-mijlocie {
+  position: absolute;
+  top: 14.69rem;
+  display: inline-block;
+  height: 3.81rem;
+}
+.grupa-mijlocie {
+  left: 0.25rem;
+  width: 8.25rem;
+}
+.grupa-mare {
+  left: 0;
+  width: 6.5rem;
+}
+.rectangle-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-29xl);
+  background-color: var(--green);
+  width: 10.34rem;
+  height: 12.69rem;
+}
+.grupa-mare-parent {
+  position: relative;
+  width: 10.34rem;
+  height: 18.5rem;
+}
+.grupa-pregatitoare1 {
+  position: absolute;
+  top: 14.69rem;
+  left: 0;
+  display: inline-block;
+  width: 11rem;
+  height: 3.81rem;
+}
+.group-child1 {
+  position: absolute;
+  top: 0;
+  left: 0.07rem;
+  border-radius: var(--br-29xl);
+  background-color: var(--green);
+  width: 10.31rem;
+  height: 12.69rem;
+}
+.grupa-pregatitoare-group {
+  position: relative;
+  width: 11rem;
+  height: 18.5rem;
+}
+.section-2 {
+  position: absolute;
+  top: 6.63rem;
+  left: 8.13rem;
+  width: 58.75rem;
+  height: 19.88rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xl) var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-55xl);
+}
+.section-descriere1 {
+  position: absolute;
+  top: 7.38rem;
+  left: 0;
+  width: 90rem;
+  height: 33.13rem;
+  text-align: left;
+  font-size: var(--label-label-1-semibold-size);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

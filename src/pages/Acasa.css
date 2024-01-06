@@ -1,0 +1,204 @@
+.footer-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-300);
+  width: 90rem;
+  height: 23.94rem;
+}
+.item-3 {
+  top: 8.69rem;
+  left: 0;
+  width: 12.31rem;
+  height: 1.56rem;
+}
+.item-1,
+.item-2,
+.item-3,
+.title-col3 {
+  position: absolute;
+  line-height: 1.8rem;
+  font-weight: 500;
+  display: inline-block;
+}
+.item-2 {
+  top: 5.88rem;
+  left: 0;
+  width: 16.25rem;
+  height: 1.56rem;
+}
+.item-1,
+.title-col3 {
+  width: 10.5rem;
+  height: 1.55rem;
+}
+.item-1 {
+  top: 3.11rem;
+  left: 0.13rem;
+}
+.title-col3 {
+  top: 0;
+  left: 0.06rem;
+  color: var(--green);
+}
+.col3 {
+  position: absolute;
+  top: 6.5rem;
+  left: 67.19rem;
+  width: 16.25rem;
+  height: 10.25rem;
+  color: var(--color-gainsboro-100);
+}
+.item-31,
+.item-32 {
+  left: 0;
+  width: 10.55rem;
+}
+.item-31 {
+  position: absolute;
+  top: 8.7rem;
+  display: inline-block;
+  height: 1.55rem;
+}
+.item-32 {
+  top: 11.38rem;
+}
+.item-11,
+.item-21,
+.item-32,
+.title-col1 {
+  position: absolute;
+  display: inline-block;
+  height: 1.55rem;
+}
+.item-21 {
+  top: 5.9rem;
+  left: 0;
+  width: 8.29rem;
+}
+.item-11,
+.title-col1 {
+  width: 10.55rem;
+}
+.item-11 {
+  top: 3.11rem;
+  left: 0.08rem;
+}
+.title-col1 {
+  top: 0;
+  left: 0;
+  font-size: var(--label-label-1-semibold-size);
+  line-height: 1.8rem;
+  color: var(--green);
+}
+.col1 {
+  position: absolute;
+  top: 6.5rem;
+  left: 53.56rem;
+  width: 10.63rem;
+  height: 12.93rem;
+  font-size: var(--font-size-sm);
+}
+.description {
+  position: absolute;
+  top: 9.31rem;
+  left: 10.31rem;
+  letter-spacing: -0.5px;
+  line-height: 1.43rem;
+  display: inline-block;
+  width: 15.63rem;
+}
+.separator {
+  position: absolute;
+  top: 3.71rem;
+  left: 10.27rem;
+  border-top: 1.5px solid var(--font-color-pure-white);
+  box-sizing: border-box;
+  width: 73.72rem;
+  height: 0.09rem;
+}
+.footer-widgets {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90rem;
+  height: 23.94rem;
+}
+.contacte {
+  margin: 0;
+  position: absolute;
+  top: 1.38rem;
+  left: 0.56rem;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8.44rem;
+  height: 2.44rem;
+}
+.logo-webfooter1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+.logo-webfooter-child {
+  position: absolute;
+  top: 14.75rem;
+  left: 56.94rem;
+  width: 4.5rem;
+  height: 1.31rem;
+  object-fit: cover;
+}
+.logo-webfooter {
+  position: absolute;
+  top: 3.75rem;
+  left: 10.31rem;
+  width: 15.63rem;
+  height: 6.25rem;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-roboto);
+}
+.frame-child {
+  position: absolute;
+  top: 0;
+  left: 12.19rem;
+}
+.frame-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.footerdesktop,
+.frame-parent {
+  position: absolute;
+  top: 14.38rem;
+  left: 10.31rem;
+  width: 20.5rem;
+  height: 3.06rem;
+}
+.footerdesktop {
+  top: 229.19rem;
+  left: -0.06rem;
+  width: 90rem;
+  height: 23.69rem;
+  text-align: left;
+  font-size: var(--label-label-1-semibold-size);
+  color: var(--font-color-pure-white);
+  font-family: var(--font-poppins);
+}
+.acasa {
+  position: relative;
+  background-color: var(--font-color-pure-white);
+  width: 100%;
+  height: 252.88rem;
+  overflow: hidden;
+}

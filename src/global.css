@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --label-label-1-semibold: Raleway;
+  --font-roboto: Roboto;
+  --font-inter: Inter;
+  --font-red-hat-display: "Red Hat Display";
+
+  /* font sizes */
+  --font-size-21xl: 2.5rem;
+  --label-label-1-semibold-size: 1rem;
+  --font-size-77xl: 6rem;
+  --font-size-13xl: 2rem;
+  --font-size-sm: 0.88rem;
+  --font-size-xl-6: 1.29rem;
+  --font-size-lg: 1.13rem;
+  --font-size-5xl: 1.5rem;
+  --font-size-3xl: 1.38rem;
+  --font-size-xl: 1.25rem;
+
+  /* Colors */
+  --font-color-pure-white: #fff;
+  --color-gray-100: #fcfeff;
+  --color-gray-200: #1d293f;
+  --color-gray-300: #272727;
+  --color-gray-400: #1d252c;
+  --color-gray-500: #1e1e1e;
+  --color-black: #000;
+  --color-whitesmoke-100: #f7f8fa;
+  --color-whitesmoke-200: rgba(247, 248, 250, 0.8);
+  --green: #56b280;
+  --color-mediumseagreen-100: rgba(91, 192, 138, 0.35);
+  --color-mediumseagreen-200: rgba(86, 178, 128, 0.1);
+  --color-gainsboro-100: #e1e1e1;
+  --orange: #ffbc11;
+  --color-darkslateblue: #0b254b;
+  --dark-1: #5e6e89;
+  --color-darkslategray-100: #355b3e;
+  --color-darkslategray-200: #2e3d4c;
+  --color-dimgray: #58745e;
+  --color-seagreen: #029664;
+  --color-powderblue: #b8d6bf;
+
+  /* Gaps */
+  --gap-3xs: 0.63rem;
+  --gap-xl: 1.25rem;
+  --gap-55xl: 4.63rem;
+  --gap-5xl: 1.5rem;
+  --gap-5xs: 0.5rem;
+  --gap-9xs: 0.25rem;
+  --gap-base: 1rem;
+
+  /* Paddings */
+  --padding-11xl: 1.88rem;
+  --padding-40xl: 3.69rem;
+  --padding-smi: 0.81rem;
+  --padding-5xl: 1.5rem;
+  --padding-5xs: 0.5rem;
+  --padding-25xl: 2.75rem;
+  --padding-3xl: 1.38rem;
+  --padding-base: 1rem;
+
+  /* Border radiuses */
+  --br-3xs: 10px;
+  --br-9xs: 4px;
+  --br-7xs: 6px;
+  --br-11xs: 2px;
+  --br-29xl: 48px;
+  --br-5xs: 8px;
+  --br-base: 16px;
+}

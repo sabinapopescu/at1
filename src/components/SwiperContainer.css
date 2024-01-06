@@ -1,0 +1,103 @@
+.swiper-title1 {
+  flex: 1;
+  position: relative;
+}
+.swiper-title-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base);
+}
+.aspect-ratio-keeper-rotated7 {
+  flex: 1;
+  transform: rotate(-34.23deg);
+}
+.cardmedia7 {
+  width: 20rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-image: url(/public/cardmedia@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.card-paragraph7,
+.card-title7 {
+  align-self: stretch;
+  position: relative;
+}
+.card-paragraph7 {
+  font-size: var(--font-size-sm);
+  display: inline-block;
+  height: 1.88rem;
+  flex-shrink: 0;
+}
+.cardcontent7,
+.examplecard7 {
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cardcontent7 {
+  align-self: stretch;
+  height: 9.69rem;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+}
+.examplecard7 {
+  border-radius: var(--br-base);
+  background-color: var(--font-color-pure-white);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.16);
+  height: 20.94rem;
+}
+.cardswiper1,
+.swipearea1 {
+  overflow-x: auto;
+  display: flex;
+  justify-content: flex-start;
+}
+.swipearea1 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-base) 0 var(--padding-base) var(--padding-base);
+  gap: var(--gap-base);
+  font-size: var(--font-size-xl);
+}
+.cardswiper1 {
+  top: 0;
+  left: 0;
+  width: 90rem;
+  flex-direction: column;
+  align-items: center;
+}
+.cardswiper-container,
+.cardswiper1,
+.frame4 {
+  position: absolute;
+  height: 23.56rem;
+}
+.cardswiper-container {
+  top: 0;
+  left: 5.5rem;
+  width: 90rem;
+}
+.frame4 {
+  top: 100.06rem;
+  left: -2.75rem;
+  width: 95.5rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-red-hat-display);
+}

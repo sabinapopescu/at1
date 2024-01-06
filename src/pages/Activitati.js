@@ -1,0 +1,189 @@
+import { useCallback } from "react";
+import { Button } from "@mui/material";
+import { useNavigate } from "react-router-dom";
+import Footerdesktop from "../components/Footerdesktop";
+import Navbar7 from "../components/Navbar7";
+import FormContainer from "../components/FormContainer";
+import Container from "../components/Container";
+import "./Activitati.css";
+
+const Activitati = () => {
+  const navigate = useNavigate();
+
+  const onFrameNavigationClick = useCallback(() => {
+    navigate("/blog");
+  }, [navigate]);
+
+  const onBlogTextClick = useCallback(() => {
+    navigate("/blog");
+  }, [navigate]);
+
+  const onDespreTextClick = useCallback(() => {
+    navigate("/despre");
+  }, [navigate]);
+
+  const onResurseTextClick = useCallback(() => {
+    navigate("/resurse");
+  }, [navigate]);
+
+  const onActivitiTextClick = useCallback(() => {
+    navigate("/activitati");
+  }, [navigate]);
+
+  const onButtonRoundedSmallClick = useCallback(() => {
+    window.open("/travalizer-desktop");
+  }, []);
+
+  return (
+    <div className="activitati">
+      <Footerdesktop
+        footerdesktopWidth="90rem"
+        footerdesktopHeight="23.69rem"
+        footerdesktopPosition="absolute"
+        footerdesktopTop="258rem"
+        footerdesktopLeft="0rem"
+        footerWidgetsTop="0rem"
+        footerWidgetsLeft="0rem"
+        footerWidgetsWidth="90rem"
+        footerWidgetsHeight="23.94rem"
+        footerBgTop="0rem"
+        footerBgLeft="0rem"
+        footerBgWidth="90rem"
+        footerBgHeight="23.94rem"
+        col3Top="6.5rem"
+        col3Left="67.19rem"
+        col3Width="16.25rem"
+        col3Height="10.25rem"
+        item3Top="8.69rem"
+        item3Left="0rem"
+        item3LineHeight="1.8rem"
+        item3Width="12.31rem"
+        item3Height="1.56rem"
+        item2Top="5.88rem"
+        item2Left="0rem"
+        item2LineHeight="1.8rem"
+        item2Width="16.25rem"
+        item2Height="1.56rem"
+        item1Top="3.11rem"
+        item1Left="0.13rem"
+        item1LineHeight="1.8rem"
+        item1Width="10.5rem"
+        item1Height="1.55rem"
+        titleCol3Top="0rem"
+        titleCol3Left="0.06rem"
+        titleCol3LineHeight="1.8rem"
+        titleCol3Width="10.5rem"
+        titleCol3Height="1.55rem"
+        col1Top="6.5rem"
+        col1Left="53.56rem"
+        col1Width="10.63rem"
+        col1Height="12.93rem"
+        item3Top1="8.7rem"
+        item3Left1="0rem"
+        item3Width1="10.55rem"
+        item3Height1="1.55rem"
+        item3Top2="11.38rem"
+        item3Left2="0rem"
+        item3Width2="10.55rem"
+        item3Height2="1.55rem"
+        item2Top1="5.9rem"
+        item2Left1="0rem"
+        item2Width1="8.29rem"
+        item2Height1="1.55rem"
+        item1Top1="3.11rem"
+        item1Left1="0.08rem"
+        item1Width1="10.55rem"
+        item1Height1="1.55rem"
+        titleCol1Top="0rem"
+        titleCol1Left="0rem"
+        titleCol1LineHeight="1.8rem"
+        titleCol1Width="10.55rem"
+        titleCol1Height="1.55rem"
+        descriptionTop="9.31rem"
+        descriptionLeft="10.31rem"
+        descriptionLineHeight="1.43rem"
+        descriptionWidth="15.63rem"
+        separatorTop="3.71rem"
+        separatorLeft="10.27rem"
+        separatorWidth="73.72rem"
+        separatorHeight="0.09rem"
+        logoWebfooterTop="3.75rem"
+        logoWebfooterLeft="10.31rem"
+        logoWebfooterWidth="15.63rem"
+        logoWebfooterHeight="6.25rem"
+        contacteTop="1.38rem"
+        contacteLeft="0.56rem"
+        contacteWidth="8.44rem"
+        contacteHeight="2.44rem"
+        groupIconTop="14.75rem"
+        groupIconLeft="56.94rem"
+        groupIconWidth="4.5rem"
+        groupIconHeight="1.31rem"
+        frameDivTop="14.38rem"
+        frameDivLeft="10.31rem"
+        frameDivWidth="20.5rem"
+        frameDivHeight="3.06rem"
+        frameButtonTop="0rem"
+        frameButtonLeft="12.19rem"
+        frameButtonTop1="0rem"
+        frameButtonLeft1="0rem"
+      />
+      <Navbar7
+        navbar7Width="89.94rem"
+        navbar7Position="absolute"
+        navbar7Top="0rem"
+        navbar7Left="0rem"
+        h1LineHeight="3.6rem"
+        frameDivWidth="56.44rem"
+        frameDivHeight="3.5rem"
+        acasWidth="7.69rem"
+        acasCursor="unset"
+        blogWidth="8.63rem"
+        despreWidth="9.13rem"
+        resurseWidth="8.31rem"
+        resurseCursor="pointer"
+        activitiWidth="8.38rem"
+        buttonRoundedSmallWidth="8.56rem"
+        buttonLineHeight="1.5rem"
+        onAcasTextClick={onAcasTextClick}
+        onFrameNavigationClick={onFrameNavigationClick}
+        onBlogTextClick={onBlogTextClick}
+        onDespreTextClick={onDespreTextClick}
+        onResurseTextClick={onResurseTextClick}
+        onActivitiTextClick={onActivitiTextClick}
+        onButtonRoundedSmallClick={onButtonRoundedSmallClick}
+      />
+      <FormContainer />
+      <Container
+        imageResolution="/sectionresurse@2x.png"
+        propTop="57.5rem"
+        propLeft="-0.06rem"
+        propLeft1="11.44rem"
+        propTop1="11.06rem"
+      />
+      <Container
+        imageResolution="/sectionresurse@2x.png"
+        propTop="155.38rem"
+        propLeft="-0.31rem"
+        propLeft1="9.88rem"
+        propTop1="11.06rem"
+      />
+      <Container
+        imageResolution="/sectionresurse@2x.png"
+        propTop="107.69rem"
+        propLeft="-0.31rem"
+        propLeft1="10.44rem"
+        propTop1="11.06rem"
+      />
+      <Container
+        imageResolution="/sectionresurse@2x.png"
+        propTop="206.38rem"
+        propLeft="0rem"
+        propLeft1="9.88rem"
+        propTop1="13rem"
+      />
+    </div>
+  );
+};
+
+export default Activitati;

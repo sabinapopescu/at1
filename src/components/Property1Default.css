@@ -1,0 +1,17 @@
+.button {
+  position: relative;
+  font-weight: 500;
+}
+.property-1default {
+  border-radius: var(--br-9xs);
+  background-color: var(--green);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-25xl);
+  text-align: center;
+  font-size: var(--font-size-xl-6);
+  color: var(--font-color-pure-white);
+  font-family: var(--font-roboto);
+}

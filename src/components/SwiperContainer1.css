@@ -1,0 +1,103 @@
+.swiper-title2 {
+  flex: 1;
+  position: relative;
+}
+.swiper-title-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base);
+}
+.aspect-ratio-keeper-rotated14 {
+  flex: 1;
+  transform: rotate(-34.23deg);
+}
+.cardmedia14 {
+  width: 20rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-image: url(/public/cardmedia@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.card-paragraph14,
+.card-title14 {
+  align-self: stretch;
+  position: relative;
+}
+.card-paragraph14 {
+  font-size: var(--font-size-sm);
+  display: inline-block;
+  height: 1.88rem;
+  flex-shrink: 0;
+}
+.cardcontent14,
+.examplecard14 {
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cardcontent14 {
+  align-self: stretch;
+  height: 9.69rem;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+}
+.examplecard14 {
+  border-radius: var(--br-base);
+  background-color: var(--font-color-pure-white);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.16);
+  height: 20.94rem;
+}
+.cardswiper2,
+.swipearea2 {
+  overflow-x: auto;
+  display: flex;
+  justify-content: flex-start;
+}
+.swipearea2 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-base) 0 var(--padding-base) var(--padding-base);
+  gap: var(--gap-base);
+  font-size: var(--font-size-xl);
+}
+.cardswiper2 {
+  top: 0;
+  left: 0;
+  width: 90rem;
+  flex-direction: column;
+  align-items: center;
+}
+.cardswiper-frame,
+.cardswiper2,
+.frame5 {
+  position: absolute;
+  height: 23.56rem;
+}
+.cardswiper-frame {
+  top: 0;
+  left: 5rem;
+  width: 90rem;
+}
+.frame5 {
+  top: 129.13rem;
+  left: -2.5rem;
+  width: 95rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-red-hat-display);
+}

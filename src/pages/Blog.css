@@ -1,0 +1,75 @@
+.image-2-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90.06rem;
+  height: 51rem;
+  object-fit: cover;
+}
+.card-bg {
+  position: absolute;
+  top: 30.94rem;
+  left: 22.13rem;
+  border-radius: var(--br-11xs);
+  background-color: var(--color-whitesmoke-200);
+  backdrop-filter: blur(24px);
+  width: 45.66rem;
+  height: 20.16rem;
+}
+.description2 {
+  position: absolute;
+  top: 6.47rem;
+  left: 0.06rem;
+  display: inline-block;
+  width: 33.59rem;
+  height: 3.24rem;
+}
+.p {
+  margin: 0;
+  font-weight: 500;
+}
+.produse-educaionale-inovatoar {
+  margin: 0;
+  font-size: var(--font-size-13xl);
+}
+.hero-title-txt {
+  width: 100%;
+}
+.hero-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 3.6rem;
+  color: var(--color-gray-400);
+  display: flex;
+  align-items: center;
+  width: 33.78rem;
+  height: 6.47rem;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-poppins);
+}
+.description-parent,
+.heading {
+  position: absolute;
+  top: 33rem;
+  left: 28.25rem;
+  width: 33.78rem;
+  height: 9.71rem;
+}
+.heading {
+  top: 7.38rem;
+  left: 0.13rem;
+  width: 90.06rem;
+  height: 51.09rem;
+}
+.blog1 {
+  position: relative;
+  background-color: var(--font-color-pure-white);
+  width: 100%;
+  height: 212.88rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

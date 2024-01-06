@@ -1,0 +1,56 @@
+.section-bg2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke-100);
+  width: 90rem;
+  height: 45rem;
+}
+.description7 {
+  top: 5.52rem;
+  left: 0;
+  display: inline-block;
+  height: 2.98rem;
+}
+.description7,
+.section-text3,
+.title-h23 {
+  position: absolute;
+  width: 69.31rem;
+}
+.title-h23 {
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-21xl);
+  letter-spacing: -0.9px;
+  line-height: 3.6rem;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-darkslateblue);
+  display: inline-block;
+  height: 4.24rem;
+}
+.section-text3 {
+  top: 2.55rem;
+  left: 11.38rem;
+  height: 8.49rem;
+}
+.section-resurse-icon {
+  position: absolute;
+  top: 11.06rem;
+  left: 11.44rem;
+  width: 71.63rem;
+  height: 32rem;
+  object-fit: cover;
+}
+.section-descriere2 {
+  position: absolute;
+  top: 57.5rem;
+  left: -0.06rem;
+  width: 90rem;
+  height: 45rem;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--dark-1);
+  font-family: var(--font-inter);
+}
